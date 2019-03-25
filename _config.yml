@@ -1,5 +1,5 @@
 # Site settings
-name: 瞧一瞧，看一看
+name: 郭天佑的日记
 email: gtykaka@163.com
 author: 郭天佑
 # url: http://www.hifreud.com
@@ -17,7 +17,7 @@ paginate: 10
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-github_username: luoyan35714
+github_username: Gtykaka
 
 # Build settings
 markdown: kramdown
