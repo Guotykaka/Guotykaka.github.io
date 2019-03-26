@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  第二章 重新找回灵魂
+title:  第二章 灵魂与神
 date:   2019-03-27 00:00:00 +0800
 categories: 读书笔记
 tag: 红书
