@@ -1,1 +1,4 @@
-# Guotykaka.github.io
+# 郭天佑的简历
+layout: page
+title: "PAGE TITLE"
+permalink: /URL-PATH/
