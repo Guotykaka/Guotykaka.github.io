@@ -6,6 +6,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
+	base: '/',// 开发或生产环境服务的公共基础路径 配置引入相对路径
 	server: {
 		host: '0.0.0.0',
 		open: true,
