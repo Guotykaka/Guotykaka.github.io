@@ -1,0 +1,1 @@
+import{_ as c,c as n,d as e,o as a,q as r}from"./index-CxIGT_a7.js";const _={class:"g-content g-col-center"},d={__name:"404",setup(l){const s=r(),t=()=>{s.push({name:"home"})};return(p,o)=>(a(),n("div",_,[o[0]||(o[0]=e("div",{class:"none-box"},"404",-1)),e("div",{class:"g-btn m-t-20",onClick:t},"回到首页")]))}},u=c(d,[["__scopeId","data-v-02d583d9"]]);export{u as default};
