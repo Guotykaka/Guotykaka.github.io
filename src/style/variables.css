@@ -1,0 +1,30 @@
+:root {
+    --primary: #239959;
+    --primary-bg: #23995910;
+    --gray-bg: #F8F8F8;
+    --text: #333333;
+    --background: #ffffff;
+    --color-green: #239959;
+    --color-green-light: #0AC560;
+    --color-red: #FF4A4A;
+    --color-gray: #DDDDDD;
+    --color-blue: #02A7F0;
+    --font-size: 14px;
+    --up-bar-height: 40px;
+    --down-bar-height: 60px;
+    /* 40为标顶部标题栏高度 */
+    --viewport-height-big: calc(100vh - 40px);
+    /* 100为顶部标题栏高度加底部导航栏高度 */
+    --viewport-height-mini: calc(100vh - 100px);
+}
+
+@media (prefers-color-scheme: dark) {
+
+    /* 系统为黑夜模式 */
+    :root {
+        /* --primary: #333333;
+        --text: #ffffff;
+        --background: #33333330; */
+    }
+
+}
