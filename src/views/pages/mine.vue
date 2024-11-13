@@ -1,7 +1,7 @@
 <template>
 	<div class="g-content b-graypage">
 		<div class="name g-row-left shadow-card">
-			<img class="fs0" src="@/assets/images/user.png" />
+			<!-- <img class="fs0" src="@/assets/images/user.png" /> -->
 			<div class="m-l-10">
 				<div class="f16 m-b-5">{{ name }}</div>
 				<div class="c66">{{ phone }}</div>

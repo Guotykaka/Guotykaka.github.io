@@ -11,7 +11,7 @@
 }
 
 html {
-    scroll-behavior: 'smooth'
+    scroll-behavior: 'smooth';
 }
 
 body {
@@ -70,15 +70,15 @@ $dimensions: (
 
 ::-webkit-scrollbar {
     height: 10px;
-    width: 6px;
-    background-color: transparent;
+    width: 4px;
+    background-color: #C7010130;
     border: 0;
 }
 
 ::-webkit-scrollbar-thumb {
     cursor: pointer;
-    border-radius: 10px;
-    background-color: #93CF9E !important;
+    border-radius: 12px;
+    background-color: #B30101 !important;
 }
 
 /* 修改Vant Toast文字大小的CSS */
@@ -117,16 +117,33 @@ $dimensions: (
 
 .g-navigation {
     height: var(--up-bar-height);
+    width: 100vw;
+    box-sizing: border-box;
     background: var(--primary);
-    font-size: 16px;
     line-height: var(--up-bar-height);
-    text-align: center;
     color: white;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .4);
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     z-index: 10;
+    padding: 0 10vw;
+
+    .logo {
+        width: 70px;
+        height: 70px;
+        margin-left: -3px;
+        margin-top: -2px;
+    }
+
+    .logos {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        overflow: hidden;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.7);
+    }
 }
 
 
@@ -212,6 +229,11 @@ $dimensions: (
     cursor: pointer;
 }
 
+.g-default {
+    cursor: default;
+}
+
+
 
 .c33 {
     color: #333333;
@@ -290,13 +312,13 @@ $dimensions: (
     justify-content: center;
     align-items: center;
     color: var(--primary);
-    background: #23995910;
+    background: #c7010110;
     border-radius: 4px;
     border: 1px solid var(--primary);
 }
 
 .g-active-background {
-    background: #0AC56016;
+    background: #c7010116;
     border-radius: 6px;
     border: 1px solid var(--color-green-light);
 }

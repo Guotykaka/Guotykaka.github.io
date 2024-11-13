@@ -6,10 +6,41 @@
   <link rel="icon" href="/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <title>邦邦养老</title>
+  <style type="text/css">
+    @font-face {
+      font-family: 'gtheme';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: local('gtheme'), local('gtheme'),
+        url('https://zlala-oss.oss-cn-shanghai.aliyuncs.com/OPPOSans-M.woff2') format('woff2');
+    }
+
+    ::-webkit-scrollbar-track {
+      cursor: pointer !important;
+      background-color: transparent;
+      border: 0;
+    }
+
+    ::-webkit-scrollbar {
+      height: 10px;
+      width: 6px;
+      background-color: transparent;
+      border: 0;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      cursor: pointer;
+      border-radius: 10px;
+      background-color: #c70101 !important;
+    }
+  </style>
 </head>
 
 <body>
-  <div id="app"></div>
+  <div id="app"
+    style="font-family: PingFang SC, gtheme, Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;">
+  </div>
   <script type="module" src="/src/main.js"></script>
 </body>
 

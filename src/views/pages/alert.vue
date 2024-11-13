@@ -24,7 +24,7 @@
 			<van-list v-model:loading="loading" :finished="finished" finished-text="没有更多了" @load="getList" :immediate-check="false">
 				<div class="shadow-card" v-for="(it, i) in datalist" :key="i">
 					<div class="g-row-left">
-						<img src="@/assets/images/alert.png" />
+						<!-- <img src="@/assets/images/alert.png" /> -->
 						<div class="m-l-5">
 							<div @click="copy(it.deviceName)">{{ it.deviceName || '未知设备' }}</div>
 							<div class="m-t-5" @click="copy(it.deviceId)">{{ it.deviceId || '-' }}</div>
