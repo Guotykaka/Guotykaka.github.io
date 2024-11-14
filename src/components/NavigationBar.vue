@@ -1,10 +1,10 @@
 <template>
 	<div class="g-navigation g-row-between">
-		<div class="g-flex g-default">
-			<div class="logos m-r-15"><img class="logo" src="@/assets/images/logo.jpg" /></div>
-			<text class="f14 bold">鹤壁竞技足球俱乐部</text>
+		<div class="g-flex g-default phone">
+			<div class="logos m-r-15 fs0"><img class="logo" src="@/assets/images/logo.jpg" /></div>
+			<text class="f14 bold fs0">鹤壁竞技足球俱乐部</text>
 		</div>
-		<div class="g-flex f14 bold">
+		<div class="g-flex f14 bold fs0">
 			<div class="g-pointer m-r-20">历史</div>
 			<div class="g-pointer m-r-20">阵容</div>
 			<div class="g-pointer m-r-20">照片</div>
