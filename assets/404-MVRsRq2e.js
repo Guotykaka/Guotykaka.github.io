@@ -1,1 +1,0 @@
-import{_ as c,c as n,e as o,o as a,v as r}from"./index-MRy_5klY.js";const _={class:"g-content g-col-center"},d={__name:"404",setup(l){const s=r(),t=()=>{s.push({name:"home"})};return(p,e)=>(a(),n("div",_,[e[0]||(e[0]=o("div",{class:"none-box"},"404",-1)),o("div",{class:"g-btn m-t-20",onClick:t},"回到首页")]))}},u=c(d,[["__scopeId","data-v-02d583d9"]]);export{u as default};
