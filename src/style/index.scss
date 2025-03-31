@@ -1,4 +1,4 @@
-@use "sass:list";
+@use 'sass:list';
 
 /* 添加这段样式后，Primary Button 会变成红色 */
 :root:root {
@@ -23,23 +23,22 @@ body {
     font-size: var(--font-size);
 }
 
-
 $directions: (
     't': 'top',
     'b': 'bottom',
     'l': 'left',
-    'r': 'right',
+    'r': 'right'
 );
 $dimensions: (
     'p': 'padding',
-    'm': 'margin',
+    'm': 'margin'
 );
 
 // m-l-5 p-b-15
 //获取padding margin间隔
 @each $dim in $dimensions {
 
-    //循环四个方向 
+    //循环四个方向
     @each $dir in $directions {
         @for $i from 1 through 20 {
             $size: $i * 5;
@@ -71,25 +70,19 @@ $dimensions: (
 ::-webkit-scrollbar {
     height: 10px;
     width: 4px;
-    background-color: #C7010130;
+    background-color: var(--primarylight);
     border: 0;
 }
 
 ::-webkit-scrollbar-thumb {
     cursor: pointer;
     border-radius: 12px;
-    background-color: #B30101 !important;
+    background-color: var(--primary) !important;
 }
 
 /* 修改Vant Toast文字大小的CSS */
 .van-toast {
     font-size: 16px !important;
-}
-
-/* 高德地图logo隐藏 */
-.amap-logo,
-.amap-copyright {
-    display: none !important;
 }
 
 .f12 {
@@ -110,9 +103,7 @@ $dimensions: (
     .g-content {
         box-sizing: border-box;
         overflow-y: auto;
-        // height: var(--viewport-height-big);
     }
-
 }
 
 .g-navigation {
@@ -120,9 +111,8 @@ $dimensions: (
     width: 100vw;
     box-sizing: border-box;
     background: var(--primary);
-    // line-height: var(--up-bar-height);
     color: white;
-    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .4);
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
     position: fixed;
     top: 0;
     left: 0;
@@ -146,7 +136,7 @@ $dimensions: (
     }
 
     /* 针对纵向手机设备 */
-    @media(max-width: 768px) and (orientation: portrait) {
+    @media (max-width: 768px) and (orientation: portrait) {
         padding: 10px;
 
         .phone {
@@ -176,11 +166,7 @@ $dimensions: (
             }
         }
     }
-
 }
-
-
-
 
 .flex1 {
     flex: 1;
@@ -266,14 +252,12 @@ $dimensions: (
     cursor: default;
 }
 
-
-
 .c33 {
     color: #333333;
 }
 
 .c66 {
-    color: #666666
+    color: #666666;
 }
 
 .c-white {
@@ -333,7 +317,7 @@ $dimensions: (
 }
 
 .shadow-card {
-    background: linear-gradient(221deg, rgba(255, 255, 255, 0.98) 0%, #FFFFFF 100%);
+    background: linear-gradient(221deg, rgba(255, 255, 255, 0.98) 0%, #ffffff 100%);
     box-shadow: 0px 5px 30px 1px rgba(197, 202, 213, 0.25);
     border-radius: 8px 8px 8px 8px;
 }
@@ -366,4 +350,22 @@ $dimensions: (
     border-radius: 2px;
     font-size: 12px;
     color: white;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text);
+    cursor: pointer;
+    flex-shrink: 0;
+    font-size: 12px;
+
+    &:visited {
+        color: var(--text);
+    }
 }

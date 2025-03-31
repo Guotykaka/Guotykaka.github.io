@@ -1,5 +1,6 @@
 :root {
     --primary: #c70101;
+    --primarylight: #C7010130;
     --primary-bg: #23995910;
     --gray-bg: #F8F8F8;
     --text: #333333;
@@ -22,9 +23,11 @@
 
     /* 系统为黑夜模式 */
     :root {
-        /* --primary: #333333;
+        --primary: #111827;
         --text: #ffffff;
-        --background: #33333330; */
+        --background: #11182730;
+        --primarylight: #11182730;
+        --gray-bg: #161f32;
     }
 
 }
