@@ -356,6 +356,12 @@ $dimensions: (
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    background-color: #ffffff;
+    object-fit: contain;
+
+    &.blcak {
+        background-color: #333333;
+    }
 }
 
 a {

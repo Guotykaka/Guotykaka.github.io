@@ -2,8 +2,8 @@
 	<div class="g-navigation g-row-between">
 		<div class="g-flex g-default phone">
 			<div class="logos m-r-15 fs0">
-				<img class="logo logolight" src="@/assets/images/logo.jpg" />
-				<img class="logo logodark" src="@/assets/images/logo.png" />
+				<img class="logo logolight" src="@/assets/images/logo.webp" />
+				<img class="logo logodark" src="@/assets/images/logo2.webp" />
 			</div>
 			<text class="f14 bold fs0">二狗导航</text>
 		</div>
